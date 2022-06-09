@@ -15,7 +15,7 @@ public class ClassAccessFlagUtils {
         // 不允许有子类
         classAccessFlagMap.put(0x0010, "final");
         // 都会有的值
-        classAccessFlagMap.put(0x0020, "super");
+//        classAccessFlagMap.put(0x0020, "super");
         // 接口
         classAccessFlagMap.put(0x0200, "interface");
         // 抽象类
@@ -32,7 +32,6 @@ public class ClassAccessFlagUtils {
      * 获取16进制对应的访问标志字符串表示 （仅用于类的访问标志）
      *
      * @param flag 访问标志
-     * @return
      */
     public static String toClassAccessFlagsString(U2 flag) {
         final int flagValue = flag.toInt();

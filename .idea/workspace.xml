@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940251f1-e4c5-4006-b45c-ffb1da7c8948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/T006_MSBClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/ClassFileAnalysisMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysisMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/ClassFileAnalysiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysiser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/AttributeProcessingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/AttributeProcessingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/Code_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/Code_attribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/ConstantValue_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/ConstantValue_attribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/TestConstantValueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/TestConstantValueInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/AccessFlagsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AccessFlagsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/AttributesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AttributesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/BaseByteCodeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/BaseByteCodeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/ConstantPoolHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ConstantPoolHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/FieldHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/FieldHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/InterfacesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/InterfacesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/MagicHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MagicHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/MethodHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MethodHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/ThisAndSuperClassHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ThisAndSuperClassHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/VersionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/VersionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/AttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/AttributeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/ClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/ClassFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/CpInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/CpInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/FieldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/FieldInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/MethodInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Class_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Class_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Double_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Double_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Fieldref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Fieldref_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Float_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Float_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Integer_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Integer_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_InterfaceMethodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InterfaceMethodref_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_InvokeDynamic_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InvokeDynamic_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Long_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Long_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_MethodHandle_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodHandle_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_MethodType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodType_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Methodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Methodref_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_NameAndType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_NameAndType_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_String_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_String_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Utf8_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Utf8_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/ConstantInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInfoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/ClassAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/FieldAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/FieldAccessFlagUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/HexStringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/HexStringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuling/smlz/jvm/classbyatecode/TulingByteCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +40,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="2AKoJDB0O9ZpRbYVgDdswElO4Xr" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -334,7 +283,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654767564546</updated>
-      <workItem from="1654767566158" duration="3114000" />
+      <workItem from="1654767566158" duration="3742000" />
     </task>
     <servers />
   </component>
