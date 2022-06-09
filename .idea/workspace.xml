@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="940251f1-e4c5-4006-b45c-ffb1da7c8948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/T006_MSBClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/ClassFileAnalysisMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysisMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/ClassFileAnalysiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysiser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/AttributeProcessingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/AttributeProcessingFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/Code_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/Code_attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/ConstantValue_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/ConstantValue_attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/attribute/TestConstantValueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/TestConstantValueInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/AccessFlagsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AccessFlagsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/AttributesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AttributesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/BaseByteCodeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/BaseByteCodeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/ConstantPoolHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ConstantPoolHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/FieldHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/FieldHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/InterfacesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/InterfacesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/MagicHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MagicHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/MethodHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MethodHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/ThisAndSuperClassHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ThisAndSuperClassHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/handler/VersionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/VersionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/AttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/AttributeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/ClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/ClassFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/CpInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/CpInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/FieldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/FieldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/MethodInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/U4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Class_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Class_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Double_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Double_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Fieldref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Fieldref_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Float_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Float_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Integer_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Integer_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_InterfaceMethodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InterfaceMethodref_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_InvokeDynamic_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InvokeDynamic_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Long_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Long_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_MethodHandle_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodHandle_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_MethodType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodType_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Methodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Methodref_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_NameAndType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_NameAndType_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_String_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_String_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/CONSTANT_Utf8_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Utf8_info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/type/cp/ConstantInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInfoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/ClassAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/FieldAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/FieldAccessFlagUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/congzhizhi/asmbytecode/book/analysis/util/HexStringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/HexStringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuling/smlz/jvm/classbyatecode/TulingByteCode.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2AKoJDB0O9ZpRbYVgDdswElO4Xr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zwb" />
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAnalysisClassFile.testReadAccessFlag">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestAnalysisClassFile.testReadAccessFlag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="analysis_classfile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwb" />
+      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
+      <option name="METHOD_NAME" value="testReadAccessFlag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnalysisClassFile.testReadClassFileVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="analysis_classfile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwb" />
+      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
+      <option name="METHOD_NAME" value="testReadClassFileVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnalysisClassFile.testReadConstantPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="analysis_classfile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwb" />
+      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
+      <option name="METHOD_NAME" value="testReadConstantPool" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnalysisClassFile.testReadMagic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="analysis_classfile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwb" />
+      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
+      <option name="METHOD_NAME" value="testReadMagic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="analysis_classfile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="analysis_classfile" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="analysis_classfile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAnalysisClassFile.testReadAccessFlag" />
+        <item itemvalue="JUnit.TestAnalysisClassFile.testReadConstantPool" />
+        <item itemvalue="JUnit.TestAnalysisClassFile.testReadClassFileVersion" />
+        <item itemvalue="JUnit.TestAnalysisClassFile.testReadMagic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="940251f1-e4c5-4006-b45c-ffb1da7c8948" name="Default Changelist" comment="" />
+      <created>1654767564546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654767564546</updated>
+      <workItem from="1654767566158" duration="3114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
