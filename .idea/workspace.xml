@@ -5,50 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940251f1-e4c5-4006-b45c-ffb1da7c8948" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysisMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysiser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/DemoClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/AttributeProcessingFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/CodeAttribute$Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/CodeAttribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/ConstantValueAttribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AccessFlagsHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AttributesHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/BaseByteCodeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ConstantPoolHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/FieldHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/InterfacesHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/MagicHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/MethodHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ThisAndSuperClassHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/VersionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/AttributeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/ClassFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/CpInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/FieldInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/MethodInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantClassInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantDoubleInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantFieldrefInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantFloatInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInfoHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantIntegerInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInterfaceMethodrefInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInvokeDynamicInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantLongInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodHandleInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodTypeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodrefInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantNameAndTypeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantStringInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantUtf8Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/ClassAccessFlagUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/FieldAccessFlagUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/HexStringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zwb/TestAnalysisClassFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,41 +66,20 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAnalysisClassFile.testReadConstantPool">
-    <configuration name="TestAnalysisClassFile.testInterface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="analysis_classfile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwb" />
-      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
-      <option name="METHOD_NAME" value="testInterface" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAnalysisClassFile.testReadAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="analysis_classfile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwb" />
-      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
-      <option name="METHOD_NAME" value="testReadAttributes" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestAnalysisClassFile.testReadConstantPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="analysis_classfile" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zwb.*" />
@@ -155,45 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAnalysisClassFile.testReadField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="analysis_classfile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwb" />
-      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
-      <option name="METHOD_NAME" value="testReadField" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAnalysisClassFile.testReadMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="analysis_classfile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwb" />
-      <option name="MAIN_CLASS_NAME" value="com.zwb.TestAnalysisClassFile" />
-      <option name="METHOD_NAME" value="testReadMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestAnalysisClassFile.testReadConstantPool" />
-        <item itemvalue="JUnit.TestAnalysisClassFile.testReadAttributes" />
-        <item itemvalue="JUnit.TestAnalysisClassFile.testReadMethod" />
-        <item itemvalue="JUnit.TestAnalysisClassFile.testReadField" />
-        <item itemvalue="JUnit.TestAnalysisClassFile.testInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +110,9 @@
       <updated>1654767564546</updated>
       <workItem from="1654767566158" duration="11516000" />
       <workItem from="1654789734723" duration="546000" />
+      <workItem from="1654827287170" duration="443000" />
+      <workItem from="1654827736307" duration="37000" />
+      <workItem from="1654827822067" duration="156000" />
     </task>
     <servers />
   </component>

@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
-        <module name="analysis_classfile" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="analysis_classfile" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
