@@ -17,15 +17,14 @@ public class ConstantPoolHandler implements BaseByteCodeHandler {
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
         U2 cpLen = new U2(codeBuf.get(), codeBuf.get());
-        classFile.setConstant_pool_count(cpLen);
+        classFile.setConstantPoolCount(cpLen);
         int cpInfoLength = cpLen.toInt() - 1;
-        classFile.setConstant_pool(new CpInfo[cpInfoLength]);
+        classFile.setConstantPool(new CpInfo[cpInfoLength]);
         for (int i = 0; i < cpInfoLength; i++) {
             U1 tag = new U1(codeBuf.get());
             CpInfo cpInfo = CpInfo.newCpInfo(tag);
             cpInfo.read(codeBuf);
-            // System.out.println("#" + (i + 1) + ":" + cpInfo);
-            classFile.getConstant_pool()[i] = cpInfo;
+            classFile.getConstantPool()[i] = cpInfo;
         }
     }
 

@@ -14,9 +14,9 @@ public class MethodHandler implements BaseByteCodeHandler {
 
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
-        classFile.setMethods_count(new U2(codeBuf.get(), codeBuf.get()));
+        classFile.setMethodsCount(new U2(codeBuf.get(), codeBuf.get()));
         // 获取方法总数
-        int len = classFile.getMethods_count().toInt();
+        int len = classFile.getMethodsCount().toInt();
         if (len == 0) {
             return;
         }
@@ -26,12 +26,12 @@ public class MethodHandler implements BaseByteCodeHandler {
         for (int i = 0; i < methodInfos.length; i++) {
             // 解析方法
             methodInfos[i] = new MethodInfo();
-            methodInfos[i].setAccess_flags(new U2(codeBuf.get(), codeBuf.get()));
-            methodInfos[i].setName_index(new U2(codeBuf.get(), codeBuf.get()));
-            methodInfos[i].setDescriptor_index(new U2(codeBuf.get(), codeBuf.get()));
-            methodInfos[i].setAttributes_count(new U2(codeBuf.get(), codeBuf.get()));
+            methodInfos[i].setAccessFlags(new U2(codeBuf.get(), codeBuf.get()));
+            methodInfos[i].setNameIndex(new U2(codeBuf.get(), codeBuf.get()));
+            methodInfos[i].setDescriptorIndex(new U2(codeBuf.get(), codeBuf.get()));
+            methodInfos[i].setAttributesCount(new U2(codeBuf.get(), codeBuf.get()));
             // 获取方法的属性总数
-            int attr_len = methodInfos[i].getAttributes_count().toInt();
+            int attr_len = methodInfos[i].getAttributesCount().toInt();
             if (attr_len == 0) {
                 continue;
             }
@@ -41,11 +41,11 @@ public class MethodHandler implements BaseByteCodeHandler {
                 methodInfos[i].getAttributes()[j] = new AttributeInfo();
                 // 解析方法的属性
                 methodInfos[i].getAttributes()[j]
-                        .setAttribute_name_index(new U2(codeBuf.get(), codeBuf.get()));
+                        .setAttributeNameIndex(new U2(codeBuf.get(), codeBuf.get()));
                 // 获取属性info的长度
                 U4 attr_info_len = new U4(codeBuf.get(), codeBuf.get(), codeBuf.get(), codeBuf.get());
                 methodInfos[i].getAttributes()[j]
-                        .setAttribute_length(attr_info_len);
+                        .setAttributeLength(attr_info_len);
                 if (attr_info_len.toInt() == 0) {
                     continue;
                 }

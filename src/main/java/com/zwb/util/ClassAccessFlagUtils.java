@@ -14,8 +14,8 @@ public class ClassAccessFlagUtils {
         classAccessFlagMap.put(0x0001, "public");
         // 不允许有子类
         classAccessFlagMap.put(0x0010, "final");
-        // 都会有的值
-//        classAccessFlagMap.put(0x0020, "super");
+        // jdk1.0.2以后都必须为true
+        classAccessFlagMap.put(0x0020, "super");
         // 接口
         classAccessFlagMap.put(0x0200, "interface");
         // 抽象类

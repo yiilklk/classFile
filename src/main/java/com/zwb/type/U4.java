@@ -2,7 +2,7 @@ package com.zwb.type;
 
 public class U4 {
 
-    private byte[] value;
+    private final byte[] value;
 
     public U4(byte b1, byte b2, byte b3, byte b4) {
         value = new byte[]{b1, b2, b3, b4};

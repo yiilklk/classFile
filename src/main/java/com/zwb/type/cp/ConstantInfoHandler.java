@@ -6,8 +6,6 @@ public interface ConstantInfoHandler {
 
     /**
      * 读取
-     *
-     * @param codeBuf
      */
     void read(ByteBuffer codeBuf) throws Exception;
 

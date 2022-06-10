@@ -16,9 +16,9 @@ public class AttributesHandler implements BaseByteCodeHandler {
 
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
-        classFile.setAttributes_count(new U2(codeBuf.get(), codeBuf.get()));
+        classFile.setAttributesCount(new U2(codeBuf.get(), codeBuf.get()));
         // 获取属性总数
-        int len = classFile.getAttributes_count().toInt();
+        int len = classFile.getAttributesCount().toInt();
         if (len == 0) {
             return;
         }
@@ -30,9 +30,9 @@ public class AttributesHandler implements BaseByteCodeHandler {
             AttributeInfo attributeInfo = new AttributeInfo();
             attributeInfos[i] = attributeInfo;
             // 解析属性
-            attributeInfo.setAttribute_name_index(new U2(codeBuf.get(), codeBuf.get()));
-            attributeInfo.setAttribute_length(new U4(codeBuf.get(), codeBuf.get(), codeBuf.get(), codeBuf.get()));
-            int attr_len = attributeInfo.getAttribute_length().toInt();
+            attributeInfo.setAttributeNameIndex(new U2(codeBuf.get(), codeBuf.get()));
+            attributeInfo.setAttributeLength(new U4(codeBuf.get(), codeBuf.get(), codeBuf.get(), codeBuf.get()));
+            int attr_len = attributeInfo.getAttributeLength().toInt();
             if (attr_len == 0) {
                 continue;
             }

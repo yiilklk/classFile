@@ -24,46 +24,46 @@ public abstract class CpInfo implements ConstantInfoHandler {
         CpInfo info;
         switch (tagValue) {
             case 1:
-                info = new CONSTANT_Utf8_info(tag);
+                info = new ConstantUtf8Info(tag);
                 break;
             case 3:
-                info = new CONSTANT_Integer_info(tag);
+                info = new ConstantIntegerInfo(tag);
                 break;
             case 4:
-                info = new CONSTANT_Float_info(tag);
+                info = new ConstantFloatInfo(tag);
                 break;
             case 5:
-                info = new CONSTANT_Long_info(tag);
+                info = new ConstantLongInfo(tag);
                 break;
             case 6:
-                info = new CONSTANT_Double_info(tag);
+                info = new ConstantDoubleInfo(tag);
                 break;
             case 7:
-                info = new CONSTANT_Class_info(tag);
+                info = new ConstantClassInfo(tag);
                 break;
             case 8:
-                info = new CONSTANT_String_info(tag);
+                info = new ConstantStringInfo(tag);
                 break;
             case 9:
-                info = new CONSTANT_Fieldref_info(tag);
+                info = new ConstantFieldrefInfo(tag);
                 break;
             case 10:
-                info = new CONSTANT_Methodref_info(tag);
+                info = new ConstantMethodrefInfo(tag);
                 break;
             case 11:
-                info = new CONSTANT_InterfaceMethodref_info(tag);
+                info = new ConstantInterfaceMethodrefInfo(tag);
                 break;
             case 12:
-                info = new CONSTANT_NameAndType_info(tag);
+                info = new ConstantNameAndTypeInfo(tag);
                 break;
             case 15:
-                info = new CONSTANT_MethodHandle_info(tag);
+                info = new ConstantMethodHandleInfo(tag);
                 break;
             case 16:
-                info = new CONSTANT_MethodType_info(tag);
+                info = new ConstantMethodTypeInfo(tag);
                 break;
             case 18:
-                info = new CONSTANT_InvokeDynamic_info(tag);
+                info = new ConstantInvokeDynamicInfo(tag);
                 break;
             default:
                 throw new Exception("没有找到该TAG=" + tagValue + "对应的常量类型");

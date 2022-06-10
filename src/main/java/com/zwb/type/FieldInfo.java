@@ -9,10 +9,10 @@ import lombok.ToString;
 @ToString
 public class FieldInfo {
 
-    private U2 access_flags;
-    private U2 name_index;
-    private U2 descriptor_index;
-    private U2 attributes_count;
+    private U2 accessFlags;
+    private U2 nameIndex;
+    private U2 descriptorIndex;
+    private U2 attributesCount;
     private AttributeInfo[] attributes;
 
 }

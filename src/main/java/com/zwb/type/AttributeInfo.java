@@ -8,7 +8,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class AttributeInfo {
-    private U2 attribute_name_index;
-    private U4 attribute_length;
+    private U2 attributeNameIndex;
+    private U4 attributeLength;
     private byte[] info;
 }

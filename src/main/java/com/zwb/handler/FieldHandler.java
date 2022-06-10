@@ -14,9 +14,9 @@ public class FieldHandler implements BaseByteCodeHandler {
 
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
-        classFile.setFields_count(new U2(codeBuf.get(), codeBuf.get()));
+        classFile.setFieldsCount(new U2(codeBuf.get(), codeBuf.get()));
         // 获取字段总数
-        int len = classFile.getFields_count().toInt();
+        int len = classFile.getFieldsCount().toInt();
         if (len == 0) {
             return;
         }
@@ -26,12 +26,12 @@ public class FieldHandler implements BaseByteCodeHandler {
         for (int i = 0; i < fieldInfos.length; i++) {
             // 解析字段
             fieldInfos[i] = new FieldInfo();
-            fieldInfos[i].setAccess_flags(new U2(codeBuf.get(), codeBuf.get()));
-            fieldInfos[i].setName_index(new U2(codeBuf.get(), codeBuf.get()));
-            fieldInfos[i].setDescriptor_index(new U2(codeBuf.get(), codeBuf.get()));
-            fieldInfos[i].setAttributes_count(new U2(codeBuf.get(), codeBuf.get()));
+            fieldInfos[i].setAccessFlags(new U2(codeBuf.get(), codeBuf.get()));
+            fieldInfos[i].setNameIndex(new U2(codeBuf.get(), codeBuf.get()));
+            fieldInfos[i].setDescriptorIndex(new U2(codeBuf.get(), codeBuf.get()));
+            fieldInfos[i].setAttributesCount(new U2(codeBuf.get(), codeBuf.get()));
             // 获取字段的属性总数
-            int attr_len = fieldInfos[i].getAttributes_count().toInt();
+            int attr_len = fieldInfos[i].getAttributesCount().toInt();
             if (attr_len == 0) {
                 continue;
             }
@@ -41,11 +41,11 @@ public class FieldHandler implements BaseByteCodeHandler {
                 fieldInfos[i].getAttributes()[j] = new AttributeInfo();
                 // 解析字段的属性
                 fieldInfos[i].getAttributes()[j]
-                        .setAttribute_name_index(new U2(codeBuf.get(), codeBuf.get()));
+                        .setAttributeNameIndex(new U2(codeBuf.get(), codeBuf.get()));
                 // 获取属性info的长度
                 U4 attr_info_len = new U4(codeBuf.get(), codeBuf.get(), codeBuf.get(), codeBuf.get());
                 fieldInfos[i].getAttributes()[j]
-                        .setAttribute_length(attr_info_len);
+                        .setAttributeLength(attr_info_len);
                 if (attr_info_len.toInt() == 0) {
                     continue;
                 }

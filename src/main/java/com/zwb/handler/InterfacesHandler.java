@@ -14,8 +14,8 @@ public class InterfacesHandler implements BaseByteCodeHandler {
 
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
-        classFile.setInterfaces_count(new U2(codeBuf.get(), codeBuf.get()));
-        int interfaces_count = classFile.getInterfaces_count().toInt();
+        classFile.setInterfacesCount(new U2(codeBuf.get(), codeBuf.get()));
+        int interfaces_count = classFile.getInterfacesCount().toInt();
         if (interfaces_count > 0) {
             U2[] interfaces = new U2[interfaces_count];
             classFile.setInterfaces(interfaces);

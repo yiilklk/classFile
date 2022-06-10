@@ -2,7 +2,7 @@ package com.zwb.type;
 
 public class U1 {
 
-    private byte value;
+    private final byte value;
 
     public U1(byte value) {
         this.value = value;

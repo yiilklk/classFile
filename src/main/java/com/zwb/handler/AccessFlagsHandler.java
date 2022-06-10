@@ -14,7 +14,7 @@ public class AccessFlagsHandler implements BaseByteCodeHandler {
 
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
-        classFile.setAccess_flags(new U2(codeBuf.get(), codeBuf.get()));
+        classFile.setAccessFlags(new U2(codeBuf.get(), codeBuf.get()));
     }
 
 }

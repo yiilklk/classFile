@@ -15,9 +15,9 @@ public class VersionHandler implements BaseByteCodeHandler {
     @Override
     public void read(ByteBuffer codeBuf, ClassFile classFile) throws Exception {
         U2 minorVersion = new U2(codeBuf.get(), codeBuf.get());
-        classFile.setMinor_version(minorVersion);
+        classFile.setMinorVersion(minorVersion);
         U2 majorVersion = new U2(codeBuf.get(), codeBuf.get());
-        classFile.setMajor_version(majorVersion);
+        classFile.setMajorVersion(majorVersion);
     }
 
 }
