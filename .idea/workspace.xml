@@ -5,90 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940251f1-e4c5-4006-b45c-ffb1da7c8948" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/ClassFileAnalysiser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/TestClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/DemoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/AttributeProcessingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/AttributeProcessingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/Code_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/CodeAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/ConstantValue_attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/ConstantValueAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/attribute/TestConstantValueInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AccessFlagsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AccessFlagsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AttributesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/AttributesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/BaseByteCodeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/BaseByteCodeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ConstantPoolHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ConstantPoolHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/FieldHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/FieldHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/InterfacesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/InterfacesHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MethodHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/MethodHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ThisAndSuperClassHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/ThisAndSuperClassHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/handler/VersionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/handler/VersionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/AttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/AttributeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/ClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/ClassFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/CpInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/CpInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/FieldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/FieldInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/MethodInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/U1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/U2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/U4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/U4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Class_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantClassInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Double_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantDoubleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Fieldref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantFieldrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Float_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantFloatInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Integer_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantIntegerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InterfaceMethodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInterfaceMethodrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_InvokeDynamic_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInvokeDynamicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Long_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantLongInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodHandle_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantMethodHandleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_MethodType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantMethodTypeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Methodref_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantMethodrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_NameAndType_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantNameAndTypeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_String_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantStringInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/CONSTANT_Utf8_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantUtf8Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/type/cp/ConstantInfoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/ClassAccessFlagUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zwb/util/FieldAccessFlagUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zwb/util/FieldAccessFlagUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zwb/TestAnalysisClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zwb/TestAnalysisClassFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysiser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysiser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/TestClassFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/AttributeProcessingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/attribute/AttributeProcessingFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/Code_attribute$Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/Code_attribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/ConstantValue_attribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/TestConstantValueInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AccessFlagsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/AccessFlagsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AttributesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/AttributesHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ConstantPoolHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/ConstantPoolHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/FieldHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/FieldHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/InterfacesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/InterfacesHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/MethodHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/MethodHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ThisAndSuperClassHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/ThisAndSuperClassHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/VersionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/handler/VersionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/AttributeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/AttributeInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/ClassFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/ClassFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/CpInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/CpInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/FieldInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/FieldInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/MethodInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/MethodInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/U1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/U2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/type/U4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Class_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Double_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Fieldref_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Float_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Integer_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_InterfaceMethodref_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_InvokeDynamic_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Long_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_MethodHandle_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_MethodType_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Methodref_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_NameAndType_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_String_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/CONSTANT_Utf8_info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/ClassAccessFlagUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/util/ClassAccessFlagUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/FieldAccessFlagUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zwb/util/FieldAccessFlagUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zwb/TestAnalysisClassFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zwb/TestAnalysisClassFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysisMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/ClassFileAnalysiser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/DemoClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/AttributeProcessingFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/CodeAttribute$Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/CodeAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/attribute/ConstantValueAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AccessFlagsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/AttributesHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/BaseByteCodeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ConstantPoolHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/FieldHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/InterfacesHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/MagicHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/MethodHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/ThisAndSuperClassHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/handler/VersionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/AttributeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/ClassFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/CpInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/FieldInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/MethodInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/U4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantClassInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantDoubleInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantFieldrefInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantFloatInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInfoHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantIntegerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInterfaceMethodrefInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantInvokeDynamicInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantLongInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodHandleInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodTypeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantMethodrefInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantNameAndTypeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantStringInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/type/cp/ConstantUtf8Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/ClassAccessFlagUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/FieldAccessFlagUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zwb/util/HexStringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zwb/TestAnalysisClassFile.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,37 +107,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestAnalysisClassFile.testReadConstantPool">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestAnalysisClassFile.testInterface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="analysis_classfile" />
       <extension name="coverage">
@@ -258,113 +187,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="analysis_classfile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="analysis_classfile" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="analysis_classfile" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestAnalysisClassFile.testReadConstantPool" />
@@ -384,6 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654767564546</updated>
       <workItem from="1654767566158" duration="11516000" />
+      <workItem from="1654789734723" duration="546000" />
     </task>
     <servers />
   </component>
